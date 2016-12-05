@@ -1,0 +1,143 @@
+@font-face 
+{
+    font-family: 'opensans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;    
+}
+
+@font-face 
+{
+    font-family: 'opensanslight';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+html
+{
+    font-family: 'opensans';
+}
+
+.color-white
+{
+    background-color: #FFF !important;
+}
+
+.color-blue
+{
+    background-color: #0547A8 !important;
+}
+
+.color-green
+{
+    background-color: #05CD8E !important;
+}
+
+.text-blue
+{
+    color: #0547A8 !important;   
+}
+
+.text-green
+{
+    color: #05CD8E !important;
+}
+
+.font-72
+{
+    font-size: 72px;
+}
+
+.font-54
+{
+    font-size: 54px;
+}
+
+.font-32
+{
+    font-size: 32px;   
+}
+
+.font-24
+{
+    font-size: 24px;
+}
+
+.font-12
+{
+    font-size: 12px;
+}
+
+.font-light
+{
+    font-family: 'opensanslight' !important;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+nav
+{
+    margin-bottom: 36px;
+}
+
+.hero-img
+{
+    width: 100%;
+}
+
+.what, .explore, .how, .contact
+{
+    border-bottom: 1px solid #AAA;
+}
+
+.what
+{
+    padding: 100px 0;
+}
+
+.explore, .how, .contact
+{
+    padding: 48px 0;
+}
+
+.what-img
+{
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 32px;
+}
+
+.what .row
+{
+    margin-top: 50px;
+}
+
+.hat, .glasses, .bag 
+{
+    vertical-align: middle;
+}
+
+.explore-offer
+{
+    margin-bottom: 36px;
+}
+
+.how-detail
+{
+    word-wrap: break-word;    
+}
+
+.how-second-step
+{
+    margin-top: 64px;
+}
+
+.jumbotron
+{        
+    background: url('../img/hero.png') no-repeat 0 0;
+    background-size: 100%;
+    height: 600px;
+}
